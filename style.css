@@ -1,0 +1,110 @@
+table{
+  margin: auto;
+  width: 100%;
+
+}
+
+h6{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+h2{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+
+td {
+    border: 1px solid black;
+  }
+
+input {
+  width: 20px;
+  border: 0px;
+}
+
+#username{
+  border-bottom: 1px solid black;
+  width: 250px;
+}
+
+#date{
+  border-bottom: 1px solid black;
+  width: 300px;
+}
+
+.container{
+  margin-top: 5x;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.titles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.titles > div{
+  width: 40%;
+  margin: 10px;
+  padding: 3px;
+}
+
+.signature{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.signature > div{
+width: 50%;
+
+}
+
+#printButton{
+  width: 50%;
+  text-align: right;
+
+}
+
+#header{
+  margin-top: 10px;
+  margin: auto;
+  width: 95%
+}
+
+.button {
+  background-color: #0d9cdf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+#headerText{
+  font-size: 12px;
+}
+
+#project_code{
+  width: 100%;
+}
+

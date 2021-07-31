@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>PLAC Timesheet</title>
+
+    <script>
+        function printContent(content){ 
+        var printContents = document.getElementById(content).innerHTML;
+        window.print(); 
+        }
+    </script>
+
+</head>
+<body>
+<div class="container">
+<div id="header">
+    <h2><span class="image"><img src="/Images/PLAC LOGO.png" style="width:7%;height:7%";></span> PLAC TIMESHEET FOR FULL-TIME/PART-TIME EMPLOYEES </h2>
+</div>
+    <div class="titles">
+        <div>
+            Employee name: <input type="name" id="username" name="username">
+        </div>
+        <div >
+            Period: <input type="date" id="date" name="date">
+        </div>
+
+        <div>
+            Signature: <input type="name" id="username" name="username">
+        </div>
+
+        <div id="headerText">
+            • No Pencil! • No Whiteout! • Do not scribble through errors!
+            •  Neatly cross out mistakes with a single line and initial
+        </div>
+      </div>
+
+    <div id="center">
+        
+        <table>
+                    <tr>
+                        <td>
+                            Project Name + Number
+                        </td>
+                        <td>
+                            Sat
+                        </td>
+                        <td>
+                            Sun
+                        </td>
+                        <td>
+                            Mon
+                        </td>
+                        <td>
+                            Tue
+                        </td>
+                        <td>
+                            Wed
+                        </td>
+                        <td>
+                            Thur
+                        </td>
+                        <td>
+                            Fri
+                        </td>
+                        <td>
+                            Sat
+                        </td>
+                        <td>
+                            Sun
+                        </td>
+                        <td>
+                            Mon
+                        </td>
+                        <td>
+                            Tue
+                        </td>
+                        <td>
+                            Wed
+                        </td>
+                        <td>
+                            Thur
+                        </td>
+                        <td>
+                            Fri
+                        </td>
+                        <td>
+                            Total
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="text" id="project_code" name="fname">
+                            
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Sick Leave **
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Vacation Leave **
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Holiday Leave **
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Leave Without Pay **
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Total
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                </table>
+
+                <h6>OVERTIME EARNED ONLY</h6>
+
+                <table>
+                    
+                    <tr>
+                        <td>
+                            Project Name + Number
+                        </td>
+                        <td>
+                            Sat
+                        </td>
+                        <td>
+                            Sun
+                        </td>
+                        <td>
+                            Mon
+                        </td>
+                        <td>
+                            Tue
+                        </td>
+                        <td>
+                            Wed
+                        </td>
+                        <td>
+                            Thur
+                        </td>
+                        <td>
+                            Fri
+                        </td>
+                        <td>
+                            Sat
+                        </td>
+                        <td>
+                            Sun
+                        </td>
+                        <td>
+                            Mon
+                        </td>
+                        <td>
+                            Tue
+                        </td>
+                        <td>
+                            Wed
+                        </td>
+                        <td>
+                            Thur
+                        </td>
+                        <td>
+                            Fri
+                        </td>
+                        <td>
+                            Total
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    
+                    </tr>
+                </table>
+    </div>
+    
+   <span>*To be checked by the accounting department and allocated to the earliest date earned.</span> <br>
+   <span>** Balances to be checked by the accounting department</span> 
+
+   <div class="signature">
+    <div>
+        Supervisors Approval Date: <input type="name" id="username" name="username">
+    </div>
+
+    <div id="printButton">
+        <button class="button" onclick="printContent('center')">Print</button><br>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    
+
+    
+</body>
+</html>
