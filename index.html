@@ -12,6 +12,15 @@
         var printContents = document.getElementById(content).innerHTML;
         window.print(); 
         }
+
+
+        
+  var tableForm = document.getElementById('me');
+  alert(tableForm.textContent);
+
+     
+        
+
     </script>
 
 </head>
@@ -150,8 +159,8 @@
                         <td>
                             
                         </td>
-                        <td>
-                            <input type="text" id="fname" name="fname">
+                        <td id="fname">
+                            <input type="text" id="dare" name="fname">
                         </td>
                         <td>
                             <input type="text" id="fname" name="fname">
@@ -737,6 +746,52 @@
         <button class="button" onclick="printContent('center')">Print</button><br>
     </div>
   </div>
+</div>
+
+
+
+
+
+<div class="container">
+<h1>PLAC Timesheet Schedul 2021</h1>
+<table>
+  <tr>
+    <th>Week</th>
+    <th>Start</th>
+    <th>End</th>
+    <th>Predicted Public Holiday</th>
+  </tr>
+  <tr>
+    <td>Week 23</td>
+    <td>6-Nov-21</td>
+    <td>19-Nov-21</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Week 24</td>
+    <td>20-Nov-21</td>
+    <td>3-Dec-21</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Week 25</td>
+    <td>4-Dec-21</td>
+    <td>17-Dec-21</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Week 26</td>
+    <td>18-Dec-21</td>
+    <td>31-Dec-21</td>
+    <td>-</td>
+  </tr>
+
+</table>
+
+
 </div>
 
 
