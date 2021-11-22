@@ -7,24 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <title>PLAC Timesheet</title>
 
-    <script>
-        function printContent(content){ 
-        var printContents = document.getElementById(content).innerHTML;
-        window.print(); 
-        }
 
-
-        
-  var tableForm = document.getElementById('me');
-  alert(tableForm.textContent);
-
-     
-        
-
-    </script>
 
 </head>
 <body>
+
+<div class="printme">
 <div class="container">
 <div id="header">
     <h2><span class="image"><img src="Images/PLAC LOGO.png" style="width:7%;height:7%";></span> PLAC TIMESHEET FOR FULL-TIME/PART-TIME EMPLOYEES </h2>
@@ -733,76 +721,72 @@
                     </tr>
                 </table>
     </div>
-    
+   <div id="div" class="footer">
    <span>*To be checked by the accounting department and allocated to the earliest date earned.</span> <br>
-   <span>** Balances to be checked by the accounting department</span> 
+   <span>** Balances to be checked by the accounting department</span> </div> 
 
    <div class="signature">
     <div>
-        Supervisors Approval Date: <input type="name" id="username" name="username">
+        <span> Supervisors Approval Date: <hr></span>
     </div>
 
+</div>
+
+<div id="div" class="noPrint">
     <div id="printButton">
-        <button class="button" onclick="printContent('center')">Print</button><br>
+        <button class="button" onclick={window.print()}>Print</button><br>
     </div>
   </div>
 </div>
 
-
-
-
-
+<div id="div" class="noPrint">
 <div class="container2">
-<h1>PLAC Timesheet Schedul 2021</h1>
-<table>
-  <tr>
-    <th>Week</th>
-    <th>Start</th>
-    <th>End</th>
-    <th>Predicted Public Holiday</th>
-  </tr>
-  <tr>
-    <td>Week 23</td>
-    <td>6-Nov-21</td>
-    <td>19-Nov-21</td>
-    <td>-</td>
-  </tr>
-
-  <tr>
-    <td>Week 24</td>
-    <td>20-Nov-21</td>
-    <td>3-Dec-21</td>
-    <td>-</td>
-  </tr>
-
-  <tr>
-    <td>Week 25</td>
-    <td>4-Dec-21</td>
-    <td>17-Dec-21</td>
-    <td>-</td>
-  </tr>
-
-  <tr>
-    <td>Week 26</td>
-    <td>18-Dec-21</td>
-    <td>31-Dec-21</td>
-    <td>-</td>
-  </tr>
-
-</table>
-
+    <h1>PLAC Timesheet Schedule 2021</h1>
+    <table>
+      <tr>
+        <th>Week</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Predicted Public Holiday</th>
+      </tr>
+      <tr>
+        <td>Week 23</td>
+        <td>6-Nov-21</td>
+        <td>19-Nov-21</td>
+        <td>-</td>
+      </tr>
+    
+      <tr>
+        <td>Week 24</td>
+        <td>20-Nov-21</td>
+        <td>3-Dec-21</td>
+        <td>-</td>
+      </tr>
+    
+      <tr>
+        <td>Week 25</td>
+        <td>4-Dec-21</td>
+        <td>17-Dec-21</td>
+        <td>-</td>
+      </tr>
+    
+      <tr>
+        <td>Week 26</td>
+        <td>18-Dec-21</td>
+        <td>31-Dec-21</td>
+        <td>-</td>
+      </tr>
+    
+    </table>
+    
+    
+    </div>
 
 </div>
-
-
-
-
-
-
-
-
-    
-
-    
 </body>
 </html>
+
+
+
+
+    

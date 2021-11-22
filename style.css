@@ -1,3 +1,13 @@
+
+@media print {
+	.noPrint{
+		display: none;
+	}
+	.printme  {
+		display: block;
+	}
+}
+
 table{
   margin: auto;
   width: 100%;
@@ -31,7 +41,7 @@ input {
 
 #date{
   border-bottom: 1px solid black;
-  width: 150px;
+  width: 120px;
 }
 
 .container{
@@ -65,7 +75,7 @@ input {
 .signature{
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top:60px;
 }
 
 .signature > div{
@@ -74,7 +84,7 @@ width: 50%;
 }
 
 #printButton{
-  width: 50%;
+  width: 100%;
   text-align: right;
 
 }
@@ -116,3 +126,6 @@ width: 50%;
   width: 100%;
 }
 
+.footer{
+
+}
